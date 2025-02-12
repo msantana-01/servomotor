@@ -27,6 +27,9 @@ Este projeto pode ser testado no Wokwi:
 
 [🔗 Simular no Wokwi](https://wokwi.com/projects/422643555843130369)
 
+## Vídeo explicativo
+https://youtu.be/bGhRAPiqI2c
+
 ## Licença
 Este projeto está disponível sob a licença MIT. Sinta-se à vontade para modificar e compartilhar!
 
