@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "author": "Moises Santana",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "board-pi-pico-w", "id": "pico", "top": -32.05, "left": -236.45, "attrs": {} },
+    { "type": "wokwi-servo", "id": "servo1", "top": -21.2, "left": -67.2, "attrs": {} }
+  ],
+  "connections": [
+    [ "pico:GP0", "$serialMonitor:RX", "", [] ],
+    [ "pico:GP1", "$serialMonitor:TX", "", [] ],
+    [ "servo1:GND", "pico:GND.8", "black", [ "h-28.8", "v-48" ] ],
+    [ "pico:3V3", "servo1:V+", "red", [ "h48.31", "v19.2" ] ],
+    [ "pico:GP22", "servo1:PWM", "green", [ "h67.51", "v-38.4" ] ]
+  ],
+  "dependencies": {}
+}
